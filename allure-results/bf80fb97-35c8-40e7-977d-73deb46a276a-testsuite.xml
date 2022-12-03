@@ -1,0 +1,188 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669807675754' stop='1669807685515'>
+    <name>Bootcamp E2E: Internet shop logo button</name>
+    <title>Bootcamp E2E: Internet shop logo button</title>
+    <test-cases>
+        <test-case start='1669807675758' status='passed' stop='1669807675762'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669807675765' status='passed' stop='1669807685502'>
+            <name>Given Open the home page</name>
+            <title>Given Open the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669807675770' status='passed' stop='1669807685500'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='535a9322-adfc-483c-8a67-caad3700c1e0-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669807685503' status='broken' stop='1669807685504'>
+            <name>When Promo banner appears</name>
+            <title>When Promo banner appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Promo banner appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Promo banner appears" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Użytkownik\Desktop\gitLesson\TA-Bootcamp-E2E\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669807685504' status='broken' stop='1669807685506'>
+            <name>Then Close the promo banner</name>
+            <title>Then Close the promo banner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Close the promo banner" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Close the promo banner" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Użytkownik\Desktop\gitLesson\TA-Bootcamp-E2E\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669807685506' status='broken' stop='1669807685507'>
+            <name>When I click the Today's Best Deals button</name>
+            <title>When I click the Today's Best Deals button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click the Today's Best Deals button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click the Today's Best Deals button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Użytkownik\Desktop\gitLesson\TA-Bootcamp-E2E\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:5
+                	at Step(I click the Today's Best Deals button):14:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669807685507' status='broken' stop='1669807685508'>
+            <name>Then I see "Today's Best Deals" tab</name>
+            <title>Then I see "Today's Best Deals" tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I see "Today's Best Deals" tab" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I see "Today's Best Deals" tab" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Użytkownik\Desktop\gitLesson\TA-Bootcamp-E2E\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:5
+                	at Step(I see "Today's Best Deals" tab):15:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669807685508' status='broken' stop='1669807685509'>
+            <name>When I click on the Internet shop logo</name>
+            <title>When I click on the Internet shop logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on the Internet shop logo" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on the Internet shop logo" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Użytkownik\Desktop\gitLesson\TA-Bootcamp-E2E\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:5
+                	at Step(I click on the Internet shop logo):16:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669807685510' status='broken' stop='1669807685510'>
+            <name>Then I see the home page</name>
+            <title>Then I see the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I see the home page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I see the home page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Użytkownik\Desktop\gitLesson\TA-Bootcamp-E2E\features\bootcamp.feature):1:1
+                	at Scenario(Internet shop logo button):13:5
+                	at Step(I see the home page):17:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669807685511' status='passed' stop='1669807685513'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
